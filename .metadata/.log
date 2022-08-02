@@ -12886,3 +12886,198 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:10:33.388
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:17:53.427
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zVCsHPur
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:17:53.428
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zVCsHPur
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:17:53.429
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:17:53.430
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zVCsHPur => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:18:34.694
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:18:34.701
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:34.817
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:34.817
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@391cd4b8[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:34.819
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.410
+!MESSAGE Boot LS startup time from start to initialized: 3585ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.647
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BsAsTXXYisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.649
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.650
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.652
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.653
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.654
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BsAsTXXY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.657
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.659
+!MESSAGE buffering callback sts4.classpath.BsAsTXXY JavaPgm false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:38.659
+!MESSAGE executing callback sts4.classpath.BsAsTXXY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:18:39.199
+!MESSAGE executing callback sts4.classpath.BsAsTXXY SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:23:22.773
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:23:22.792
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:23:59.596
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:23:59.599
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:24:29.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:24:29.948
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:26:04.626
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:26:04.629
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:27:20.350
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:27:20.353
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:28:30.675
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:28:30.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:29:03.971
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:29:03.974
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:32:13.800
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:32:13.896
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:44:17.742
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:44:17.746
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:44:47.926
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BsAsTXXY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:44:47.928
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BsAsTXXY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:44:47.929
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:44:47.930
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BsAsTXXY => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:46:25.109
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:46:25.114
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:25.177
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:25.178
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@391cd4b8[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:25.179
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.316
+!MESSAGE Boot LS startup time from start to initialized: 3128ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.575
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UuIutruWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.580
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.584
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.587
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.588
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.590
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UuIutruW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.594
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.595
+!MESSAGE buffering callback sts4.classpath.UuIutruW JavaPgm false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:28.596
+!MESSAGE executing callback sts4.classpath.UuIutruW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 21:46:29.072
+!MESSAGE executing callback sts4.classpath.UuIutruW SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:54:39.058
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:54:39.063
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:56:17.595
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:56:17.598
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:56:29.768
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-02 21:56:29.771
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 2 2 2022-08-02 22:00:45.754
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
