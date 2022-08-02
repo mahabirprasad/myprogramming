@@ -1,0 +1,15 @@
+package com.java;
+
+	public class Student {
+
+	     String fname;
+	     String lname;
+	     Integer age;
+	    public Student(String fname, String lname, Integer i) {
+	        super();
+	        this.fname = fname;
+	        this.lname = lname;
+	        this.age = i;
+	    }
+
+}

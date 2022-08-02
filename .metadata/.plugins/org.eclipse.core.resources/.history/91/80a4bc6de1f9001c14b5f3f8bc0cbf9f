@@ -1,0 +1,18 @@
+package com.java;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
+public class STdentTest {
+
+	public static void main(String[] args) {
+		List<Student> list=new ArrayList<Student>();
+        list.add(new Student("ram","kumar",10));
+        list.add(new Student("shyam","singh",2));
+        list.add(new Student("rajesh","lal",4));
+        list.add(new Student("kamlesh","lalu",2));
+        Predicate<Student> p = s->s.age>=2;
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.java2;
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class Node {
+
+	int i ;
+	Node left;
+	Node right;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

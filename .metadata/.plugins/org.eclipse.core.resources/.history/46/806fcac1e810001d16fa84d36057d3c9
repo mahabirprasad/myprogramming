@@ -1,0 +1,44 @@
+package com.java1;
+
+import java.util.Scanner;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class Panagram {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a String");
+		String str = sc.nextLine();
+		String s = removeSpace(str);
+		int d = check(s);
+		if (d == -1) {
+			System.out.println("not panagram");
+		} else {
+			System.out.println("panagram");
+		}
+	}
+
+	private static int check(String s) {
+
+		for (char i = A; i <= Z; i++) {
+			if ((s.indexOf(i)<0)&&(s.indexOf((char)(i+32)))<0) {
+				return -1;
+			}
+		}
+		return 1;
+	}
+
+	private static String removeSpace(String str) {
+		char[] ch = str.toCharArray();
+		String nstr = "";
+		for (int i = 0; i < ch.length; i++) {
+			if (ch[i] != ' ') {
+				nstr = nstr + ch[i];
+			}
+		}
+		return nstr;
+	}
+
+}
