@@ -1,0 +1,26 @@
+package com.java1;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class NumToWord {
+
+	static String[] one = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+			"tweleve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
+	static String[] two = { "", "", "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninty" };
+
+	static void pw(int n, String st) {
+		if (n <= 19) {
+			System.out.println(one[n] + " ");
+		} else {
+			System.out.println(two[n / 10] + one[n % 10] + " ");
+		}
+		if (n!=0) {
+			System.out.println(st+" ");
+		}
+	}
+
+	public static void main(String[] args) {
+	}
+
+}

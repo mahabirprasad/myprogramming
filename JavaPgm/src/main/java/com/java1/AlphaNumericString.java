@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class AlphaNumericString {
 
 	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter a STring");
 		String str = sc.nextLine();
@@ -19,6 +20,7 @@ public class AlphaNumericString {
 			}
 		}
 		System.out.println(j);
+
 	}
 
 }
