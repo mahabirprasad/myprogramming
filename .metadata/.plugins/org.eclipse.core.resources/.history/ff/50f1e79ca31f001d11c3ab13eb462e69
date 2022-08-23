@@ -1,0 +1,81 @@
+package com.java;
+
+import java.util.Scanner;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+class Solution {
+
+	static boolean isAnagram(String a, String b) {
+		// Complete the function
+		if (a.length() != b.length())
+			return false;
+		else {
+			a = lowercase(a);
+			b = lowercase(b);
+			a = sort(a);
+			b = sort(b);
+			char[] ch1 = a.toCharArray();
+			char[] ch2 = a.toCharArray();
+			a = removeSpace(a);
+			b = removeSpace(b);
+			for (int i = 0; i < ch1.length; i++) {
+				if (ch1[i] != ch2[i]) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+
+	static String removeSpace(String str) {
+		char[] ch = str.toCharArray();
+		String nstr = "";
+		for (int i = 0; i < ch.length; i++) {
+			if (ch[i] != ' ') {
+				nstr = nstr + ch[i];
+			}
+		}
+		return nstr;
+	}
+
+	static String lowercase(String str) {
+		char[] ch = str.toCharArray();
+		String nstr = "";
+		for (int i = 0; i < ch.length; i++) {
+			if (ch[i] >= 65 && ch[i] <= 90) {
+				nstr = nstr + (char) (ch[i] + 32);
+			} else {
+				nstr = nstr + ch[i];
+			}
+		}
+		return nstr;
+	}
+
+	static String sort(String str) {
+		char[] ch = str.toCharArray();
+		String nstr = "";
+		for (int i = 0; i < ch.length; i++) {
+			for (int j = i + 1; j < ch.length; j++) {
+				if (ch[i] > ch[j]) {
+					char t = ch[i];
+					ch[i] = ch[j];
+					ch[j] = t;
+				}
+			}
+		}
+		nstr = new String(ch);
+		return nstr;
+	}
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		String a = scan.next();
+		String b = scan.next();
+		scan.close();
+		boolean ret = isAnagram(a, b);
+		System.out.println((ret) ? "Anagrams" : "Not Anagrams");
+	}
+}

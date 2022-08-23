@@ -1,0 +1,15 @@
+package com.java;
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class B {
+	
+	public static void main(String[] args) {
+		int m= 10;
+		while (m>0) {
+			m--;
+		}
+		System.out.println(m);
+
+}
+}

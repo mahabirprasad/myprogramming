@@ -3,7 +3,8 @@ package com.java;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Set;import javax.print.DocFlavor.STRING;
+import java.util.Set;
+import javax.print.DocFlavor.STRING;
 
 /*
 *@author: Mahabir Prasad Mohapatra
@@ -16,15 +17,15 @@ public class Occurance {
 		Map<String, Integer> map = new HashMap<>();
 		for (String string : st) {
 			if (map.containsKey(string)) {
-				map.put(string, map.get(string)+1);
-			}else {
+				map.put(string, map.get(string) + 1);
+			} else {
 				map.put(string, 1);
 			}
 		}
 		Set<String> keys = map.keySet();
 		for (String string : keys) {
-			if (map.get(string)>1) {
-				System.out.println(string+" is "+map.get(string)+" times");
+			if (map.get(string) > 1) {
+				System.out.println(string + " is " + map.get(string) + " times");
 			}
 		}
 	}

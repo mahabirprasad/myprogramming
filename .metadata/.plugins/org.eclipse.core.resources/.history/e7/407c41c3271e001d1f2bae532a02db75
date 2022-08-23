@@ -1,0 +1,39 @@
+package com.java;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class B {
+
+	public static void main(String[] args) {
+		List<Integer> l = new ArrayList<>();
+		l.add(23);
+		l.add(87);
+		l.add(67);
+		l.add(76);
+		l.add(98);
+		l.add(54);
+
+		Integer[] arr = l.stream().toArray(Integer[]::new);
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[i] < arr[j]) {
+					int t = arr[i];
+					arr[i] = arr[j];
+					arr[j] = t;
+
+				}
+
+		for (Integer integer : arr) {
+			System.out.println(integer);
+		}	}
+			int no = arr[3];
+			System.out.println("the fourth largest no"+no);
+		}
+
+	}
+}
