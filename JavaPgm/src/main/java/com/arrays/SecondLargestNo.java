@@ -1,0 +1,25 @@
+package com.arrays;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class SecondLargestNo {
+
+	public static void main(String[] args) {
+		int[] x = { 90, 75, 21, 11, 78, 49, 90, 87, 90 };
+		int n = x.length;
+		int highest = Integer.MIN_VALUE;
+		int secondHighest = Integer.MIN_VALUE;
+		for (int i = 0; i < n; i++) {
+			if (x[i] > highest) {
+				secondHighest = highest;
+				highest = x[i];
+			}
+			if (x[i]<highest && x[i]>secondHighest) {
+				secondHighest= x[i];
+			}
+		}
+		System.out.println(secondHighest);
+	}
+
+}

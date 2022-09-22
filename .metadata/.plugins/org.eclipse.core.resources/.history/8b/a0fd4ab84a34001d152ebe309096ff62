@@ -1,0 +1,18 @@
+package com.java2;
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class QuickSort {
+
+	public static void main(String[] args) {
+		int[] x = {95,31,24,54,89,11,15,92};
+		int n = 8;
+		quickSort(x,0,n-1);
+	}
+
+	private static void quickSort(int[] x, int s, int e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

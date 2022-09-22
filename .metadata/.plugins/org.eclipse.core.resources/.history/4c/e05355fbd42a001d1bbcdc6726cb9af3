@@ -1,0 +1,26 @@
+package com.java2;
+
+import java.util.Scanner;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class R {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a number");
+		int n = sc.nextInt();
+		function(n);
+	}
+
+	private static void function(int n) {
+		if (n == 0) {
+			return;
+		}
+		function(n-1);
+		System.out.print(n+" ");
+		
+	}
+
+}

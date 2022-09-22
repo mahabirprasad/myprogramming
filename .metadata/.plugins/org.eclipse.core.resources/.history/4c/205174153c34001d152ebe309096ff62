@@ -1,0 +1,48 @@
+package com.sort;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class QuickSort {
+
+	public static void main(String[] args) {
+		int[] x = { 90, 32, 26, 11, 35, 89, 76, 54, 12 };
+		int n = 9;
+		quickSort(x, 0, n - 1);
+		for (int i : x) {
+			System.out.print(i+" ");
+		}
+	}
+
+	private static void quickSort(int[] x, int s, int e) {
+
+		int p = partition(x, s, e);
+		quickSort(x, s, p - 1);
+		quickSort(x, p + 1, e);
+	}
+
+	private static int partition(int[] x, int s, int e) {
+		int pivot = x[s];
+		int i = s;
+		int j = e;
+		while (i < j) {
+			while (x[i] <= pivot && i <= e - 1) {
+				i++;
+			}
+			while (x[j] > pivot && j >= s) {
+				j--;
+			}
+			if (i < j) {
+				int t = x[i];
+				x[i] = x[j];
+				x[j] = t;
+			}
+		}
+		int t = x[j];
+		x[j] = x[s];
+		x[s] = t;
+
+		return j;
+	}
+
+}

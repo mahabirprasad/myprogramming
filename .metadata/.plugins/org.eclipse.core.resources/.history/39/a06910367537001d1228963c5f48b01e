@@ -1,0 +1,36 @@
+package com.java2;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class Test {
+
+	public static void main(String[] args) {
+		int[] x = { 1, 2, 3, 4, 5, 6, 7 };
+		int n = x.length;
+		int k = 2;
+		rotatetoleft(x, n, k);
+		for (int i : x) {
+			System.out.print(i + " ");
+		}
+	}
+
+	private static void rotatetoleft(int[] x, int n, int k) {
+		if (n == 0)
+			return;
+		k = k % n;
+		if (k > n)
+			return;
+		int[] temp = new int[k];
+		for (int i = 0; i < k; i++) {
+			temp[i] = x[n - 1 - i];
+		}
+		for (int i = 0; i < n - k; i++) {
+			x[i + k] = x[i];
+		}
+		for (int i = n - k; i < n; i++) {
+			x[i] = temp[i];
+		}
+	}
+
+}

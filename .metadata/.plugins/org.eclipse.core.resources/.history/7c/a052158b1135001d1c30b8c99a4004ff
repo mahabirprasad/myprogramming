@@ -1,0 +1,37 @@
+package com.arrays;
+
+import java.util.Arrays;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class SecondLargestNo
+
+/*
+ * public static void main(String[] args) { int[] x = {90,21,11,23,29,59,58};
+ * int n = x.length; Arrays.sort(x); for (int i : x) { System.out.print(i+" ");
+ * } System.out.println(); int secondlargest = x[n-2];
+ * System.out.println("second largest no is:"+secondlargest); }
+ * 
+ * }
+ */ {
+	static private void getElements(int[] arr, int n) {
+		if (n == 0 || n == 1) {
+			System.out.print(-1);
+			System.out.print(" ");
+			System.out.print(-1);
+			System.out.print("\n");
+		}
+		Arrays.sort(arr);
+		int small = arr[1];
+		int large = arr[n - 2];
+		System.out.println("Second smallest is " + small);
+		System.out.println("Second largest is " + large);
+	}
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 4, 6, 7, 5 ,7};
+		int n = arr.length;
+		getElements(arr, n);
+	}
+}

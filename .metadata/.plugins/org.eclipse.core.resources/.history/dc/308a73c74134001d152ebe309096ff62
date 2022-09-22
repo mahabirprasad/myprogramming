@@ -1,0 +1,49 @@
+package com.java2;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class QuickSort {
+
+	public static void main(String[] args) {
+		int[] x = { 87, 64, 38, 11, 14, 90, 65, 97 };
+		int n = 8;
+		quickSort(x, 0, n - 1);
+		for (int i : x) {
+			System.out.print(i+" ");
+		}
+	}
+
+	private static void quickSort(int[] x, int s, int e) {
+		if (s > e) {
+			return;
+		}
+		int pivot = partition(x, s, e);
+		quickSort(x, s, p - 1);
+		quickSort(x, p + 1, e);
+	}
+
+	private static int partition(int[] x, int s, int e) {
+		int pivot = x[s];
+		int i = s;
+		int j = e;
+		while (i < j) {
+			while (x[i] < pivot && i <= s) {
+				i++;
+			}
+			while (x[j] > pivot && j > e) {
+				j--;
+			}
+			if (i < j) {
+				int t = x[i];
+				x[i] = x[j];
+				x[j] = t;
+			}
+		}
+		int t = x[j];
+		x[j]=x[s];
+		x[s]=t;
+		return j;
+	}
+
+}

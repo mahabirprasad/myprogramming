@@ -1,0 +1,23 @@
+package com.arrays;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class RemoveDuplicate {
+
+	public static void main(String[] args) {
+		int[] x = {90,87,56,11,15,90,87,90,90};
+		int k = removeDuplicate(x);
+		for (int i : x) {
+			System.out.print(i+" ");
+		}
+	}
+
+	private static int removeDuplicate(int[] x) {
+		Set<Integer> set = new HashSet<>();
+	}
+
+}

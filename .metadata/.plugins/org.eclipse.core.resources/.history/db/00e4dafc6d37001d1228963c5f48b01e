@@ -1,0 +1,17 @@
+package com.java2;
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class Test {
+
+	public static void main(String[] args) {
+		int[] x = {90,91,92,93,94,95,96,97};
+		int n = x.length;
+		int k= 3;
+		rotateToRight(x,n,k);
+		for (int i : x) {
+			System.out.print(i+" ");
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.sort;
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class QuickSort {
+
+	public static void main(String[] args) {
+		int[] x = {90,32,26,11,35,89,76,54,12};
+		int n = 9;
+		quickSort(x,0,n-1);
+	}
+
+}

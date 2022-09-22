@@ -1,0 +1,22 @@
+package com.arrays;
+
+/*
+*@author: Mahabir Prasad Mohapatra
+*/
+public class SortedArray {
+
+	public static void main(String[] args) {
+		int[] x = { 90, 87, 11, 24, 76, 85 };
+		int n = x.length;
+		System.out.println(isSorted(x, n));
+	}
+
+	private static boolean isSorted(int[] x, int n) {
+		for (int i = 1; i < n; i++) {
+			if (x[i] < x[i - 1])
+				return false;
+		}
+		return true;
+	}
+
+}
